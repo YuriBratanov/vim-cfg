@@ -51,7 +51,7 @@ set expandtab
 
 " Always display the status line
 set laststatus=2
-set statusline=%<%f\ %h%m%r%{fugitive#statusline()}%=%-14.(%l,%c%V%)\ %P
+" set statusline=%<%f\ %h%m%r%{fugitive#statusline()}%=%-14.(%l,%c%V%)\ %P
 
 "Line Numbers
 set number
@@ -71,7 +71,7 @@ set tags+=../tags,../../tags,../../../tags,../../../../tags,../../../../../tags
 set background=light
 "let g:solarized_termcolors=256
 
-"set t_Co=256
+set t_Co=256
 "let g:zenburn_high_Contrast=1
 "let g:zenburn_alternate_Visual = 1
 "let g:zenburn_alternate_Error = 1
